@@ -3,8 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import load_model, Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout
+ LSTM, Dense, Dropout
 
 st.title("Tesla Stock Price Prediction")
 st.write("Predicting next 10 days stock price using LSTM")
