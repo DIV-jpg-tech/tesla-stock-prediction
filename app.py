@@ -7,7 +7,7 @@ st.title("Tesla Stock Price Prediction")
 st.write("Predicting next 10 days stock price using LSTM")
 
 # Load dataset
-data = pd.read_csv('data/TSLA.csv')
+data = pd.read_csv('TSLA.csv')
 
 # Preprocess
 data['Date'] = pd.to_datetime(data['Date'])
